@@ -1,0 +1,94 @@
+body {
+  margin: 0;
+  padding: 5%;
+  height: auto;
+  width: auto;
+  background-color: rgb(205, 238, 248);
+  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Cairo", sans-serif;
+}
+#page_wrapper {
+  text-align: center;
+}
+#page_wrapper .header {
+  background-color: #e1dfeb;
+  padding: 5%;
+  text-align: center;
+  justify-content: flex-start;
+  border: 10px solid rgb(90, 173, 209);
+  font-style: inherit;
+  font-family: "Cairo", sans-serif;
+  border-radius: 30px;
+}
+#page_wrapper .header .header_title {
+  color: rgb(78, 56, 56);
+  font-size: 32px;
+  font-weight: 900;
+}
+
+.input-bar .input-element {
+  width: 90%;
+  height: 45px;
+  line-height: 35px;
+  font-size: 20px;
+  text-align: center;
+  border-radius: 20px;
+  border: 2px solid rgb(107, 84, 117);
+  flex-direction: row;
+}
+.addTodo {
+  border-radius: 30px;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  background-color: greenyellow;
+  width: 200px;
+  height: auto;
+  margin: 3%;
+}
+.remoe {
+  background-color: greenyellow;
+  border-radius: 30px;
+  font-style: inherit;
+  float: right;
+  font-family: "Cairo", sans-serif;
+  border-color: #137e99;
+  color: #137e99;
+  width: 70px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+}
+
+.todo {
+  background-color: rgb(243, 243, 242);
+  font-family: Georgia, "Times New Roman", Times, serif;
+  border-radius: 20px;
+  margin: 5%;
+  text-align: start;
+  padding-bottom: 5%;
+  padding-left: 2%;
+  font-size: 30px;
+}
+.remoe:hover {
+  background-color: greenyellow;
+  width: 80px;
+  height: 45px;
+  animation-name: example;
+  animation-duration: 6s;
+  animation-iteration-count: 1;
+}
+
+@keyframes example {
+  20% {
+    background-color: greenyellow;
+    width: 30%;
+  }
+}
+.margen {
+  background-color: #37a9b8;
+  height: 500px;
+}
+#margen {
+  color: #137e99;
+  font-family: "Cairo", sans-serif;
+  font-size: 15px;
+}
